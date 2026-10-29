@@ -1,0 +1,122 @@
+[
+  {
+    "id": "eval-01",
+    "test_type": "exact_match",
+    "quote": "Privacy is the constitutional core of human dignity. Privacy has both positive and negative contents. The negative content restrains the State from committing an intrusion upon the life and personal liberty of a citizen.",
+    "case_name": "Justice K.S. Puttaswamy (Retd.) v. Union of India",
+    "citation": "(2017) 10 SCC 1",
+    "court_name": "Supreme Court of India",
+    "ground_truth_status": "Exact Match",
+    "description": "Verbatim quote from Justice Chandrachud's majority judgment in Puttaswamy."
+  },
+  {
+    "id": "eval-02",
+    "test_type": "exact_match",
+    "quote": "The power to amend the Constitution under Article 368 does not include the power to alter the basic structure or framework of the Constitution so as to change its identity.",
+    "case_name": "Kesavananda Bharati v. State of Kerala",
+    "citation": "(1973) 4 SCC 225",
+    "court_name": "Supreme Court of India",
+    "ground_truth_status": "Exact Match",
+    "description": "Verbatim basic structure ruling from Kesavananda Bharati."
+  },
+  {
+    "id": "eval-03",
+    "test_type": "exact_match",
+    "quote": "The procedure prescribed by law under Article 21 must be just, fair and reasonable and not arbitrary, fanciful or oppressive, otherwise it would be no procedure at all and the requirement of Article 21 would not be satisfied.",
+    "case_name": "Maneka Gandhi v. Union of India",
+    "citation": "(1978) 1 SCC 248",
+    "court_name": "Supreme Court of India",
+    "ground_truth_status": "Exact Match",
+    "description": "Verbatim golden triangle holding by Bhagwati, J. in Maneka Gandhi."
+  },
+  {
+    "id": "eval-04",
+    "test_type": "modified_quote",
+    "quote": "The power to amend the Constitution under Article 368 includes the discretionary power to alter the basic framework of the Constitution so as to adapt its identity.",
+    "case_name": "Kesavananda Bharati v. State of Kerala",
+    "citation": "(1973) 4 SCC 225",
+    "court_name": "Supreme Court of India",
+    "ground_truth_status": "Modified Quote",
+    "description": "Altered Kesavananda quote where 'does not include' is changed to 'includes the discretionary power', reversing basic structure meaning."
+  },
+  {
+    "id": "eval-05",
+    "test_type": "modified_quote",
+    "quote": "Privacy is the core of human dignity. It has both positive and negative contents. The negative content restrains the State from committing any arbitrary intrusion upon life and liberty.",
+    "case_name": "Justice K.S. Puttaswamy (Retd.) v. Union of India",
+    "citation": "(2017) 10 SCC 1",
+    "court_name": "Supreme Court of India",
+    "ground_truth_status": "Modified Quote",
+    "description": "Puttaswamy quote with omitted words 'constitutional' and 'of a citizen', and added 'arbitrary'."
+  },
+  {
+    "id": "eval-06",
+    "test_type": "modified_quote",
+    "quote": "Arbitrariness in the sense of manifest arbitrariness may apply to negate legislation under Article 14 only when done without any determining principle.",
+    "case_name": "Shayara Bano v. Union of India",
+    "citation": "(2017) 9 SCC 1",
+    "court_name": "Supreme Court of India",
+    "ground_truth_status": "Modified Quote",
+    "description": "Shayara Bano quote with replaced modal verbs and omitted 'capriciously, irrationally'."
+  },
+  {
+    "id": "eval-07",
+    "test_type": "context_mismatch_party_argument",
+    "quote": "The Constitution does not specifically guarantee a right to privacy and privacy is an elitist concept that must yield to the socio-economic welfare entitlements of the impoverished masses.",
+    "case_name": "Justice K.S. Puttaswamy (Retd.) v. Union of India",
+    "citation": "(2017) 10 SCC 1",
+    "court_name": "Supreme Court of India",
+    "ground_truth_status": "Context Mismatch",
+    "description": "Submission made by Attorney General on behalf of the Union, but presented as if it were the Court's holding."
+  },
+  {
+    "id": "eval-08",
+    "test_type": "context_mismatch_dissent",
+    "quote": "Even in the absence of Article 21 in the Constitution, the State has got no power to deprive a person of his life or liberty without the authority of law.",
+    "case_name": "Additional District Magistrate, Jabalpur v. Shivkant Shukla",
+    "citation": "(1976) 2 SCC 521",
+    "court_name": "Supreme Court of India",
+    "ground_truth_status": "Context Mismatch",
+    "description": "Justice H.R. Khanna's famous dissent in ADM Jabalpur, which was the minority opinion against the 4-judge majority."
+  },
+  {
+    "id": "eval-09",
+    "test_type": "context_mismatch_party_argument",
+    "quote": "During the operation of a Proclamation of Emergency under Article 359, no person has any locus standi to move any court for a writ of Habeas Corpus to challenge the legality of an order of detention.",
+    "case_name": "Additional District Magistrate, Jabalpur v. Shivkant Shukla",
+    "citation": "(1976) 2 SCC 521",
+    "court_name": "Supreme Court of India",
+    "ground_truth_status": "Context Mismatch",
+    "description": "Attorney General argument in ADM Jabalpur presented as judicial holding."
+  },
+  {
+    "id": "eval-10",
+    "test_type": "wrong_case_attribution",
+    "quote": "The procedure prescribed by law under Article 21 must be just, fair and reasonable and not arbitrary, fanciful or oppressive.",
+    "case_name": "Justice K.S. Puttaswamy (Retd.) v. Union of India",
+    "citation": "(2017) 10 SCC 1",
+    "court_name": "Supreme Court of India",
+    "ground_truth_status": "Modified Quote",
+    "description": "Quotation from Maneka Gandhi (1978) attributed to Puttaswamy (2017), testing cross-case tracing."
+  },
+  {
+    "id": "eval-11",
+    "test_type": "source_not_found_hallucination",
+    "quote": "The Supreme Court of India in its landmark decision held that artificial intelligence models are legal persons under Article 300A with property rights in their generated software algorithms.",
+    "case_name": "AI Robotics Society v. Union of India",
+    "citation": "(2024) 4 SCC 999",
+    "court_name": "Supreme Court of India",
+    "ground_truth_status": "Source Not Found",
+    "description": "Completely hallucinated AI-generated legal quote and fictitious case citation."
+  },
+  {
+    "id": "eval-12",
+    "test_type": "source_not_found_hallucination",
+    "quote": "Commercial transactions executed via automated neural networks shall be deemed conclusive proof of contract execution under Section 10 of the Indian Contract Act.",
+    "case_name": "Tech Corp v. State of Maharashtra",
+    "citation": "AIR 2023 SC 4512",
+    "court_name": "Supreme Court of India",
+    "ground_truth_status": "Source Not Found",
+    "description": "Fabricated corporate contract law holding not found in any authentic judgment."
+  }
+]
